@@ -2,6 +2,11 @@
 
 > **⚠️ DISCLAIMER:** This project is for authorized security research, CTF (Capture The Flag) practice, and educational purposes ONLY. Use only on devices and applications you own or have explicit permission to test.
 
+## ⚠️ A Note from the Architect
+Look, I'll be honest—this repo is a total **clusterfuck**. I've been chaining different AI models and manual hacks for hours to get the stealth hooks and receipt forgery working against a hardened backend. **PLZ FIX** whatever I've inevitably broken in this mess. Also, I have to say, I'm a **really big fan of Paisseon and Lilliana**—their original work is the only reason any of this exists.
+
+---
+
 ## 🧠 Philosophy: The Offensive vs. Defensive Loop
 
 This repository is a complete, self-contained laboratory designed to study modern iOS instrumentation, stealth, and server-side IAP validation. It is structured as a **red-team/blue-team exercise**.
@@ -10,6 +15,22 @@ This repository is a complete, self-contained laboratory designed to study moder
 1. **The Attacker (Satella Modernized):** A highly sophisticated jailbreak tweak designed for stealth. It implements C-level POSIX hooks, binary forgery, and anti-analysis modules to remain invisible to security scanners.
 2. **The Victim (Gilded Harness):** A SwiftUI-based game app that implements "Industry Standard" security. It doesn't just check local states; it sends cryptographically structured receipts to a hardened backend.
 3. **The Watcher (Python Backend):** A Flask-based validation server that performs deep inspection of incoming traffic, checking for signature validity, anti-replay, and data integrity.
+
+---
+
+## 📦 Installation Instructions
+
+### 🦓 Installing .deb files (Tweak / Sentinel) with Zebra
+1. Download the desired `.deb` from the `Binaries/` folder in this repo to your iPhone.
+2. Open **Zebra**.
+3. Go to the **Downloads** or use **Filza** to "Open In" Zebra.
+4. Tap **Install** and confirm.
+5. Respring your device.
+
+### 👹 Installing .ipa files (Gilded) with TrollStore
+1. Download the `Gilded.ipa` from the `Binaries/` folder to your iPhone.
+2. Share the file and select **TrollStore**.
+3. Tap **Install**. The app will now appear on your home screen with permanent signing.
 
 ---
 
