@@ -1,0 +1,8 @@
+{
+    Filter = {
+        Bundles = (
+            "com.natha.gilded",
+            "com.natha.sentinel"
+        );
+    };
+}

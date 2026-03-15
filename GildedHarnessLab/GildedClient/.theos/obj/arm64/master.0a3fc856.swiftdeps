@@ -1,0 +1,7 @@
+version: "Swift version 5.8 (swift-5.8-RELEASE)"
+options: "7e4d90162ee98681fe5c776ace3229d133dec09ac58b8023764c05dbb33c59a5"
+build_start_time: [1773542621, 132380000]
+build_end_time: [1773542622, 405943000]
+inputs:
+  "Sources/ContentView.swift": [1773542601, 0]
+  "Sources/GildedApp.swift": [1773500990, 0]

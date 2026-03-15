@@ -1,0 +1,25 @@
+FROM swift:6.2-jammy
+
+# Install dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git curl dpkg-dev build-essential fakeroot \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Theos
+RUN git clone --recursive https://github.com/theos/theos.git /opt/theos
+
+# Install iOS SDK
+RUN cd /opt/theos/sdks && \
+    git clone https://github.com/theos/sdks.git && \
+    mv sdks/iPhoneOS16.5.sdk . && \
+    ln -sf iPhoneOS16.5.sdk iPhoneOS16.0.sdk && \
+    rm -rf sdks
+
+# Set environment
+ENV THEOS=/opt/theos
+ENV PATH=$PATH:$THEOS/bin
+
+WORKDIR /src
+
+# Build command
+CMD ["make", "package", "FINALPACKAGE=1"]

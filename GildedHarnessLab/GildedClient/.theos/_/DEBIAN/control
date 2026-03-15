@@ -1,0 +1,10 @@
+Package: com.natha.gilded
+Name: Gilded
+Description: Pen-Test Game Harness with Server Validation
+Maintainer: Natha
+Author: Natha
+Section: Games
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 164

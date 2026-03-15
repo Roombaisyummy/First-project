@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>lilliana.satellajailed</string>
+			<key>key</key>
+			<string>tella_isEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>lilliana.satellajailed/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>lilliana.satellajailed</string>
+			<key>key</key>
+			<string>tella_isGesture</string>
+			<key>label</key>
+			<string>Gesture Trigger</string>
+			<key>PostNotification</key>
+			<string>lilliana.satellajailed/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Stealth &amp; Security (Modernized)</string>
+			<key>footerText</key>
+			<string>Stealth mode uses encoded keys and keychain storage to evade detection.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>lilliana.satellajailed</string>
+			<key>key</key>
+			<string>tella_isStealth</string>
+			<key>label</key>
+			<string>Enable Stealth Mode</string>
+			<key>PostNotification</key>
+			<string>lilliana.satellajailed/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>lilliana.satellajailed</string>
+			<key>key</key>
+			<string>tella_isDyldHook</string>
+			<key>label</key>
+			<string>Modern Dyld Hooks</string>
+			<key>PostNotification</key>
+			<string>lilliana.satellajailed/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>lilliana.satellajailed</string>
+			<key>key</key>
+			<string>tella_isInlineHook</string>
+			<key>label</key>
+			<string>Inline Hooking</string>
+			<key>PostNotification</key>
+			<string>lilliana.satellajailed/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>lilliana.satellajailed</string>
+			<key>key</key>
+			<string>tella_isAntiAnalysis</string>
+			<key>label</key>
+			<string>Anti-Analysis</string>
+			<key>PostNotification</key>
+			<string>lilliana.satellajailed/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Advanced</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>lilliana.satellajailed</string>
+			<key>key</key>
+			<string>tella_isReceipt</string>
+			<key>label</key>
+			<string>Receipt Generator</string>
+			<key>PostNotification</key>
+			<string>lilliana.satellajailed/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>lilliana.satellajailed</string>
+			<key>key</key>
+			<string>tella_isPriceZero</string>
+			<key>label</key>
+			<string>Price Zeroing</string>
+			<key>PostNotification</key>
+			<string>lilliana.satellajailed/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Logging</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>lilliana.satellajailed</string>
+			<key>key</key>
+			<string>tella_showLogs</string>
+			<key>label</key>
+			<string>Show In-App Logs</string>
+			<key>PostNotification</key>
+			<string>lilliana.satellajailed/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Restart Target Apps</string>
+			<key>action</key>
+			<string>restartTargetApps</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring Device</string>
+			<key>action</key>
+			<string>respringDevice</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Clear Logs</string>
+			<key>action</key>
+			<string>clearLogs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Links</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>GitHub</string>
+			<key>action</key>
+			<string>openGitHub</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Satella Modernized</string>
+</dict>
+</plist>
