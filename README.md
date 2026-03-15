@@ -3,7 +3,13 @@
 > **⚠️ DISCLAIMER:** This project is for authorized security research, CTF (Capture The Flag) practice, and educational purposes ONLY. Use only on devices and applications you own or have explicit permission to test.
 
 ## ⚠️ A Note from the Architect
-Look, I'll be honest—this repo is a total **clusterfuck**. I've been chaining different AI models and manual hacks for hours to get the stealth hooks and receipt forgery working against a hardened backend. **PLZ FIX** whatever I've inevitably broken in this mess. Also, I have to say, I'm a **really big fan of Paisseon and Lilliana**—their original work is the only reason any of this exists.
+Look, I'll be honest—this repo is a total **clusterfuck**. I've been chaining different AI models and manual hacks for hours to get the stealth hooks and receipt forgery working against a hardened backend.
+
+**CURRENT STATUS:** The Satella fork is **NOT WORKING** right now. The hooks are being bypassed by the hardened harness.
+
+**PLZ FIX** whatever I've inevitably broken in this mess. If you manage to get it fully working, **please tell me on Matrix**.
+
+Also, I have to say, I'm a **really big fan of Paisseon and Lilliana**—their original work is the only reason any of this exists.
 
 ---
 
